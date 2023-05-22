@@ -1,0 +1,109 @@
+* {
+    background: #F8F1E5;
+    font-family: Comic Sans MS;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 150%;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    padding-top: 10px;
+    margin: 20px 20px;
+    width: 3%;
+}
+
+h1 {
+    margin: 20px 20px;
+    color: #2F3131;
+
+}
+
+main {
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+    
+}
+
+section {
+    margin: 20px 20px 20px 20px;
+    border-radius: 25px;
+}
+
+.textarea {
+    margin: 18px 10px 20px 10px;
+    border: none;
+}
+.textarea:focus{
+    outline: none;
+}
+.mensaje-container{
+    background: #426E86;
+}
+.mensaje{
+    background: #426E86;
+    background-image: url("Recursos/seguridad.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    border: none;
+    margin: 18px 10px 20px 10px;
+    width: 383px;
+    height: 463px;
+}
+.mensaje:focus{
+    outline: none;
+}
+.botones{
+    display: flex;
+    margin: 18px 10px 20px 10px;
+    
+}
+.btn-desencriptar{
+    background: #2F3131;
+    border: 4px solid #2F3131;
+    border-radius: 24px;
+    color: #F8F1E5;
+    cursor: pointer;
+    margin-left: 38px;
+    margin-bottom: 20px;
+    height: 50px;
+    width: 250px;
+    
+}
+.btn-encriptar{
+    background: #F9BA32;
+    border: 4px solid #F9BA32;
+    border-radius: 24px;
+    color: #F8F1E5;
+    cursor: pointer;
+    height: 50px;
+    width: 250px;
+    margin-bottom: 20px;
+}
+.copiar-container{
+    background: #426E86;
+}
+.btn-copiar{
+    background: #F8F1E5;
+    border: 4px solid #F8F1E5;
+    border-radius: 24px;
+    color: #426E86;
+    cursor: pointer;
+    margin-left: 80px;
+    margin-top: 50px;
+    height: 50px;
+    width: 250px;
+    
+}
+.informacion{
+    color: #2F3131;
+    font-size: 18px;
+    opacity: 0.8;
+}
